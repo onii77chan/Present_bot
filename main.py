@@ -10,7 +10,7 @@ dp = Dispatcher()
 
 
 async def on_startup():
-
+    print("bot started")
     # routers
     dp.include_router(start_menu_handler)
 
